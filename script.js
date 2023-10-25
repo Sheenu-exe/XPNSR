@@ -59,6 +59,7 @@ const balance = document.getElementById(
     item.classList.add(
       transaction.amount < 0 ? "minus" : "plus"
     );
+   
   
     item.innerHTML = `<button class="del-btn" onclick="removeTransaction(${transaction.id})">x</button>
       ${transaction.text} <span>${sign}${Math.abs(
@@ -89,9 +90,9 @@ const balance = document.getElementById(
         .reduce((acc, item) => (acc += item), 0) *
       -1).toFixed(2);
   
-      balance.innerText=`$${total}`;
-      money_plus.innerText = `$${income}`;
-      money_minus.innerText = `$${expense}`;
+      balance.innerText=`₹${total}`;
+      money_plus.innerText = `₹${income}`;
+      money_minus.innerText = `₹${expense}`;
   }
   
   
@@ -121,3 +122,7 @@ const balance = document.getElementById(
   Init();
   
   form.addEventListener('submit',addTransaction);
+
+ var animateke14= document.querySelector("li");
+
+ animateke14.style.transition
