@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPNSR| Sachin Parihar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d9a26642d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2 class="head"><i width="35" height="35" data-lucide="badge-indian-rupee"></i>XPNSR</i>
+    </h2>
+<div class="container">
+    <div class="bal">
+        <h4 class="YB">YOUR BALANCE</h4>
+    <h1 id="balance">&#8377;00.00 </h1>
+    </div>
+    <div class="inc-exp">
+        <div class="inc">
+            <h4>Income</h4>
+            <p id="moneyadd" class="money">+&#8377; 00.00</p>
+        </div>
+        <div class="exp">
+            <h4>Expense</h4>
+            <p class="money" id="moneydeduct">-&#8377;00.00</p>
+        </div>
+    </div>
+    <h3 class="hist">History</h3>
+    <ul id="list">
+        <li class="minus">
+             
+            <button class="del-btn">X
+            </button>Cash 
+                <span>+&#8377;100 </span>
+        </li>
+    </ul>
+
+  <h3 class="newtransc">Add New Transaction</h3>
+  <form id="form">
+    <div class="form-control">
+        <label for="Text">Label</label>
+        <input type="text" id="text" placeholder="Enter Label">
+    </div>
+    <div class="form-control">
+        <label for="Amount">Amount</label>
+        <input type="text" id="amount" placeholder="Enter Amount">
+    </div>
+    <button class="btn">Add Transaction</button>
+  </form>
+</div>
+
+
+
+<!-- Lucide -->
+<!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
