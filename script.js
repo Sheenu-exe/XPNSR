@@ -10,7 +10,7 @@ const balance = document.getElementById(
   );
   const list = document.getElementById("list");
   const form = document.getElementById("form");
-  const text = document.getElementById("text");
+  const text = document.getElementById("text")
   const amount = document.getElementById("amount");
  
   const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
@@ -123,6 +123,4 @@ const balance = document.getElementById(
   
   form.addEventListener('submit',addTransaction);
 
- var animateke14= document.querySelector("li");
 
- animateke14.style.transition
